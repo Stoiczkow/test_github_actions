@@ -8,7 +8,7 @@ on:
   push:
 
 jobs:
-  print_hello:
+  python_function:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Python 3.11
